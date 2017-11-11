@@ -1,9 +1,9 @@
 # Welcome to the DevOps challang
 
-**Your `codeName = <YOUR_INITIALS>`** e.g John Snow codeName = "js" - Use it throughout the task.
-We've found a data leak in our company, but before we're deleting our resources, we need you to extract the information and deliver it.
-You're assigned with the creation of a device that will be used as a POC to transfer highly sensitive data.
-With the language of your choice follow these instructions in the next 48 hours to stop the leak:
+**Your `codeName = <YOUR_INITIALS>`** e.g John Snow codeName = "js" - Use it throughout the task.  
+We've found a data leak in our company, but before we're deleting our resources, we need you to extract the information and deliver it.  
+You're assigned with the creation of a device that will be used as a POC to transfer highly sensitive data.  
+With the language of your choice follow these instructions in the next 48 hours to stop the leak:  
 
 1. Fork this project, change its name and restructure it as you see fit
 2. Write an application that will extract the secret string from a DynamoDB in our account and publish it
