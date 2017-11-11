@@ -7,7 +7,7 @@ With the language of your choice follow these instructions in the next 48 hours 
 
 1. Fork this project, change its name and restructure it as you see fit
 2. Write an application that will extract the secret string from a DynamoDB in our account and publish it
-3. The `secret_code` lies in a DynamoDB document `WHERE` `code_name = #{codeName}` 
+3. The `secret_code` lies in a DynamoDB table `devops-challange` where `code_name = #{codeName}` 
 4. The keys that will provide access to the account are available [here](https://pass.spot.im) [*NOTE: The keys are only visible once*]
 5. Create a docker container that will publish `secret_code` to `http://127.0.0.1:8000/secret`
 6. Once the code is retrieved, in order to stop the leak change `secret_key` in the document to its reverse order
