@@ -1,6 +1,6 @@
-# Welcome to the DevOps challange `#1`
+# Welcome to the DevOps challang
 
-*Your `codeName = <YOUR_INITIALS>`* e.g John Snow codeName = "js" - Use it throughout the task.
+**Your `codeName = <YOUR_INITIALS>`** e.g John Snow codeName = "js" - Use it throughout the task.
 We've found a data leak in our company, but before we're deleting our resources, we need you to extract the information and deliver it.
 You're assigned with the creation of a device that will be used as a POC to transfer highly sensitive data.
 With the language of your choice follow these instructions in the next 48 hours to stop the leak:
@@ -39,10 +39,10 @@ Content: Name:      <YOUR_NAME>
 2. Use a different container for your app
 3. Create a project structure to support your test suit and application logical parts (e.g `/app`, `/test`, `/docs` etc)
 4. Use informative commit messages
-5. Think *security*: Aviod exposing secrets to git in any way (Tip: use `.env` file for the `compose` part, and `gitignore` it)
+5. Think *security*: Avoid exposing secrets to git in any way (Tip: use `.env` file for the `compose` part, and `gitignore` it)
 
 ---
 
-# Challage `#2`
-
-Prepare a CloudFormation YAML template that will deploy a VPC from scratch.
+```
+omer@devops.co.il
+```
