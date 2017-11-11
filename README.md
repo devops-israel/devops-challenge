@@ -1,6 +1,6 @@
 # Welcome to the DevOps challange
 
-### Prerequiesits
+### Prerequisites
 
 * A GitHub account
 * A [TravisCI](https://docs.travis-ci.com) account 
