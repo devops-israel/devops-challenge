@@ -5,9 +5,9 @@ We've found a data leak in our company, but before we're deleting our resources,
 You're assigned with the creation of a device that will be used as a POC to transfer highly sensitive data.
 With the language of your choice follow these instructions in the next 48 hours to stop the leak:
 
-1. Fork this project, change its name and restructure it as you see fit, the given structure is a suggestion, and can be improved
+1. Fork this project, change its name and restructure it as you see fit
 2. Write an application that will extract the secret string from a DynamoDB in our account and publish it
-3. The `secret_code` lies within a DynamoDB in a document `WHERE` `code_name = chaos_monkey` `AND` `code_name = #{codeName}` 
+3. The `secret_code` lies in a DynamoDB document `WHERE` `code_name = chaos_monkey` and `code_name = #{codeName}` 
 4. The keys that will provide access to the account are available [here](https://pass.spot.im) [NOTE: *The keys are only visible once and will be self-destructed*]
 5. Create a docker container that within running `docker run chaos` will provide the `secret_code` to `http://127.0.0.1:8000/secret`
 6. In order to stop the leak, once the code is retrieved, change `secret_key` in the document to its reverse order
