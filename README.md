@@ -4,7 +4,7 @@
 
 * A GitHub account
 * A [TravisCI](https://docs.travis-ci.com) account 
-* A [Docker hub]('https://hub.docker.com') account
+* A [Docker hub](https://hub.docker.com) account
 * Local Docker installation
 
 
