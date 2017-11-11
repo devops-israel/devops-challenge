@@ -55,7 +55,7 @@ Content: Name:      <YOUR_NAME>
 
 1. Use informative commit messages
 2. Think *security*: Avoid exposing secrets in any way (Tip: use `.env` file for the `compose`ing, and `.gitignore` it)
-3. Route with any: [Ruby](https://github.com/sinatra/sinatra) [Python](http://flask.pocoo.org/) [Go](https://golang.org/pkg/net/http/) [Node](https://www.npmjs.com/package/http-server)
+3. Different routers in [Ruby](https://github.com/sinatra/sinatra), [Python](http://flask.pocoo.org/), [Go](https://golang.org/pkg/net/http/) and [Node](https://www.npmjs.com/package/http-server)
 4. Structure the project in a maintainable logic way, you may use `/example`
 ---
 
