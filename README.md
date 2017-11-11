@@ -1,4 +1,4 @@
-# Welcome to the DevOps challang
+# Welcome to the DevOps challange
 
 **Your `codeName = <YOUR_INITIALS>`** e.g John Snow codeName = "js" - Use it throughout the task.  
 We've found a data leak in our company, but before we're deleting our resources, we need you to extract the information and deliver it.  
@@ -22,7 +22,7 @@ Content: Name:      <YOUR_NAME>
 ```
 
 
-### Required result should:
+### The result should:
 
 1. Return `{ secret_code: <CODE> }` to http://127.0.0.1:8000/secret
 2. Return `{ status: healthy, container:<LINK_TO_HUB> }` to http://127.0.0.1:8000/health
@@ -36,10 +36,9 @@ Content: Name:      <YOUR_NAME>
 ### Suggestions (These are only for guidance and can be ignored if you choose so):
 
 1. For routing you can use [nginx](https://www.nginx.com/resources/wiki/) or [traefik](https://github.com/containous/traefik)
-2. Use a different container for your app
-3. Create a project structure to support your test suit and application logical parts (e.g `/app`, `/test`, `/docs` etc)
-4. Use informative commit messages
-5. Think *security*: Avoid exposing secrets to git in any way (Tip: use `.env` file for the `compose` part, and `gitignore` it)
+2. Create a project structure to support your test suit and application logical parts (e.g `/app`, `/test`, `/docs` etc)
+3. Use informative commit messages
+4. Think *security*: Avoid exposing secrets to git in any way (Tip: use `.env` file for the `compose` part, and `gitignore` it)
 
 ---
 
