@@ -48,7 +48,7 @@ Content: Name:      <YOUR_NAME>
 5. Be tested and built in Travis on push to `master` branch
 6. Contain a well documented code, and a `SUMMARY.md` file explaining each step of the development process
 7. Contain a `TROUBLE.md` describing difficulties along the way and their solutions
-8, Be published as a GitHub project under your account e.g `github.com/<GitHub_User>/<Challange_Project>`
+8. Be published as a GitHub project under your account e.g `github.com/<GitHub_User>/<Challange_Project>`
 
 
 ### Guidance (These are only for general assitance and are not a must):
