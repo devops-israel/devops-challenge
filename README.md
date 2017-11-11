@@ -24,7 +24,7 @@ With the language of your choice follow these instructions in the next 72 hours 
 7. Create a [Travis CI](https://travis-ci.org/) account, and add a `travis.yml` that will build, test and deploy your code and container/s
 8. The Travis process should `publish` the contianer to your own docker hub account
 9. A link to the container on docker hub should be published as `container` to `/health` (See requirement #2)
-10. Once completed, send an email to `omer@devops.co.il`:
+10. Once completed, reply to the challange email:
 ```
 Subject: Task complete - #{codeName}
 Content: Name:      <YOUR_NAME>
