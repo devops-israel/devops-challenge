@@ -20,11 +20,10 @@ With the language of your choice follow these instructions in the next 72 hours 
 3. The `secret_code` lies in a DynamoDB table `devops-challange` where `code_name = #{codeName}` 
 4. The keys that will provide access to the account have been provided separatly 
 5. Create a docker container that will publish `secret_code` to `http://127.0.0.1:5000/secret`
-6. Once the code is retrieved, in order to stop the leak change your `secret_key` in the table to its reverse order
-7. Create a [Travis CI](https://travis-ci.org/) account, and add a `travis.yml` that will build, test and deploy your code and container/s
-8. The Travis process should `publish` the contianer to your own docker hub account
-9. A link to the container on docker hub should be published as `container` to `/health` (See requirement #2)
-10. A link to the GitHub project should be published as `project` to `/health` (See requirement #2)
+6. Create a [Travis CI](https://travis-ci.org/) account, and add a `travis.yml` that will build, test and deploy your code and container/s
+7. The Travis process should `publish` the contianer to your own docker hub account
+8. A link to the container on docker hub should be published as `container` to `/health` (See requirement #2)
+9. A link to the GitHub project should be published as `project` to `/health` (See requirement #2)
 10. Once completed, reply to the challange email:
 ```
 Subject: Task complete - #{codeName}
@@ -42,13 +41,12 @@ When using the template in CloudFormation, the user should be able to fill in pa
 
 1. Return `{ secret_code: <CODE> }` to http://127.0.0.1:5000/secret
 2. Return `{ status: healthy, container: <LINK_TO_HUB>, project: github.com/omerxx/ecscale }` to http://127.0.0.1:5000/health
-3. Reverse the retrieved code in the table
-4. Running `docker-compose up` should get everything up and running
-5. Contain a minimal test suit
-6. Be tested and built in Travis on push to `master` branch
-7. Contain a well documented code, and a `SUMMARY.md` file explaining each step of the development process
-8. Contain a `TROUBLE.md` describing difficulties along the way and their solutions
-9, Be published as a GitHub project under your account e.g `github.com/<GitHub_User>/<Challange_Project>`
+3. Running `docker-compose up` should get everything up and running
+4. Contain a minimal test suit
+5. Be tested and built in Travis on push to `master` branch
+6. Contain a well documented code, and a `SUMMARY.md` file explaining each step of the development process
+7. Contain a `TROUBLE.md` describing difficulties along the way and their solutions
+8, Be published as a GitHub project under your account e.g `github.com/<GitHub_User>/<Challange_Project>`
 
 
 ### Guidance (These are only for general assitance and are not a must):
