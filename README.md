@@ -28,7 +28,7 @@ Content: Name:      <YOUR_NAME>
 2. Return `{ status: healthy, container:<LINK_TO_HUB> }` to http://127.0.0.1:8000/health
 3. Running `docker-compose up` should get everything up and running
 4. Contain a minimal test suit
-5. Be tested and built in Travis on push to `#{codeName}` branch
+5. Be tested and built in Travis on push to `master` branch
 6. Contain a well documented code, and a `SUMMARY.md` file explaining each step of the development process
 7. Contain a `TROUBLE.md` describing difficulties along the way and their solutions
 
