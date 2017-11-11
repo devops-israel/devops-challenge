@@ -35,7 +35,7 @@ Content: Name:      <YOUR_NAME>
 
 ### Suggestions (These are only for guidance and can be ignored if you choose so):
 
-1. Use [nginx](https://www.nginx.com/resources/wiki/) for routing
+1. For routing you can use [nginx](https://www.nginx.com/resources/wiki/) or [traefik](https://github.com/containous/traefik)
 2. Use a different container for your app
 3. Create a project structure to support your test suit and application logical parts (e.g `/app`, `/test`, `/docs` etc)
 4. Use informative commit messages
