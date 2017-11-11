@@ -35,11 +35,9 @@ Content: Name:      <YOUR_NAME>
 
 ### Suggestions (These are only for guidance and can be ignored if you choose so):
 
-1. For routing you can use [nginx](https://www.nginx.com/resources/wiki/) or [traefik](https://github.com/containous/traefik)
-2. Create a project structure to support your test suit and application logical parts (e.g `/app`, `/test`, `/docs` etc)
-3. Use informative commit messages
-4. Think *security*: Avoid exposing secrets to git in any way (Tip: use `.env` file for the `compose` part, and `gitignore` it)
-
+1. Use informative commit messages
+2. Think *security*: Avoid exposing secrets to git in any way (Tip: use `.env` file for the `compose` part, and `gitignore` it)
+3. Route with any: [Ruby](https://github.com/sinatra/sinatra) [Python](http://flask.pocoo.org/) [Go](https://golang.org/pkg/net/http/) [Node](https://www.npmjs.com/package/http-server)
 ---
 
 ```
