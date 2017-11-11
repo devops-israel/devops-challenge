@@ -24,6 +24,13 @@ With the language of your choice follow these instructions in the next 72 hours 
 7. Create a [Travis CI](https://travis-ci.org/) account, and add a `travis.yml` that will build, test and deploy your code and container/s
 8. The Travis process should `publish` the contianer to your own docker hub account
 9. A link to the container on docker hub should be published as `container` to `/health` (See requirement #2)
+
+#### Bonus - This is not a must
+To wrap up the project, prepare a `environment.template` file, that would contain a CloudFormation YAML.
+The template should be a deploying your application to AWS.
+You may choose any AWS service you see fit for the deployment.
+When using the template in CloudFormation, the user should be able to fill in parameters required (e,g `vpc-id`, `instance-type` etc).
+
 10. Once completed, send an email to `omer@devops.co.il`:
 ```
 Subject: Task complete - #{codeName}
@@ -44,7 +51,7 @@ Content: Name:      <YOUR_NAME>
 8. Contain a `TROUBLE.md` describing difficulties along the way and their solutions
 
 
-### Suggestions (These are only for guidance and can be ignored if you choose so):
+### Guidance (These are only for general assitance and are not a must):
 
 1. Use informative commit messages
 2. Think *security*: Avoid exposing secrets in any way (Tip: use `.env` file for the `compose`ing, and `.gitignore` it)
