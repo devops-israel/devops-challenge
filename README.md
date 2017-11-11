@@ -24,8 +24,8 @@ Content: Name:      <YOUR_NAME>
 
 ### Required result should:
 
-1. Return `secret_code` to http://127.0.0.1:8000/secret
-2. Return `{ status: healthy, container:<LINK_TO_HUB>}` to http://127.0.0.1:8000/health
+1. Return `{ secret_code: <CODE> }` to http://127.0.0.1:8000/secret
+2. Return `{ status: healthy, container:<LINK_TO_HUB> }` to http://127.0.0.1:8000/health
 3. Running `docker-compose up` should get everything up and running
 4. Contain a minimal test suit
 5. Be tested and built in Travis on push to `#{codeName}` branch
