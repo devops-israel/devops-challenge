@@ -37,6 +37,8 @@ Content: Name:      <YOUR_NAME>
 > You may choose any AWS service you see fit for the deployment.  
 > When using the template in CloudFormation, the user should be able to fill in parameters required (e.g `vpc-id`, `instance-type` etc).  
 
+---
+
 ### The result should
 
 1. Return `{ secret_code: <CODE> }` to http://127.0.0.1:5000/secret
