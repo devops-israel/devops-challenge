@@ -32,10 +32,10 @@ Content: Name:      <YOUR_NAME>
 ```
 
 #### Bonus - This is not a must
-To wrap up the project, prepare a `environment.template` file, that would contain a CloudFormation YAML.  
-The template should be a deploying your application to AWS.  
-You may choose any AWS service you see fit for the deployment.  
-When using the template in CloudFormation, the user should be able to fill in parameters required (e.g `vpc-id`, `instance-type` etc).  
+> To wrap up the project, prepare a `environment.template` file, that would contain a CloudFormation YAML.  
+> The template should be a deploying your application to AWS.  
+> You may choose any AWS service you see fit for the deployment.  
+> When using the template in CloudFormation, the user should be able to fill in parameters required (e.g `vpc-id`, `instance-type` etc).  
 
 ### The result should
 
