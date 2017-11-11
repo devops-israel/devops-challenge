@@ -16,14 +16,14 @@ You're assigned with the creation of a device that will be used as a POC to tran
 With the language of your choice follow these instructions in the next 72 hours to stop the leak:  
 
 1. Fork this project, change its name and restructure it as you see fit
-2. Write an application that will extract the secret string from a DynamoDB table in our account and provide to a web endpoint
+2. Write an application that will extract the secret string from a DynamoDB table in our account  
 3. The `secret_code` lies in a DynamoDB table `devops-challange` where `code_name = #{codeName}` 
 4. The keys that will provide access to the account have been provided separatly 
 5. Create a docker container that will publish `secret_code` to `http://127.0.0.1:5000/secret`
 6. Once the code is retrieved, in order to stop the leak change your `secret_key` in the table to its reverse order
 7. Create a [Travis CI](https://travis-ci.org/) account, and add a `travis.yml` that will build, test and deploy your code and container/s
 8. The Travis process should `publish` the contianer to your own docker hub account
-9. A link to the container on docker hun should be published as a result to `/health` (See requirement #2)
+9. A link to the container on docker hub should be published as `container` to `/health` (See requirement #2)
 10. Once completed, send an email to `omer@devops.co.il`:
 ```
 Subject: Task complete - #{codeName}
