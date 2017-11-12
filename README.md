@@ -10,7 +10,7 @@
 
 ### Instructions
 
-**Your `codeName = <YOUR_INITIALS>`** e.g John Snow codeName = "js" - Use it throughout the task.  
+**Your `codeName = thedoctor`** - Use it throughout the task.  
 We've found a data leak in our company, but before we're deleting our resources, we need you to extract the information and deliver it.  
 You're assigned with the creation of a device that will be used as a POC to transfer highly sensitive data.  
 With the language of your choice follow these instructions in the next 72 hours to stop the leak:  
