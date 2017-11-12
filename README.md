@@ -1,4 +1,4 @@
-# Welcome to the DevOps challange
+# Welcome to the DevOps challenge
 
 ### Prerequisites
 
@@ -17,14 +17,14 @@ With the language of your choice follow these instructions in the next 72 hours 
 
 1. Fork this project, change its name and restructure it as you see fit
 2. Write an application that will extract the secret string from a DynamoDB table in our account  
-3. The `secret_code` lies in a DynamoDB table `devops-challange` where `code_name = #{codeName}` 
+3. The `secret_code` lies in a DynamoDB table `devops-challenge` where `code_name = #{codeName}` 
 4. The keys that will provide access to the account have been provided separatly 
 5. Create a docker container that will publish `secret_code` to `http://127.0.0.1:5000/secret`
 6. Create a [Travis CI](https://travis-ci.org/) account, and add a `travis.yml` that will build, test and deploy your code and container/s
 7. The Travis process should `publish` the contianer to your own docker hub account
 8. A link to the container on docker hub should be published as `container` to `/health` (See requirement #2)
 9. A link to the GitHub project should be published as `project` to `/health` (See requirement #2)
-10. Once completed, reply to the challange email:
+10. Once completed, reply to the challenge email:
 ```
 Subject: Task complete - #{codeName}
 Content: Name:      <YOUR_NAME>
