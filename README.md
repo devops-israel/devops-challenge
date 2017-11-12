@@ -20,7 +20,7 @@ With the language of your choice follow these instructions in the next 72 hours 
 3. The `secret_code` lies in a DynamoDB table `devops-challenge` where `code_name = #{codeName}` 
 4. The keys that will provide access to the account have been provided separatly 
 5. Create a docker container that will publish `secret_code` to `http://127.0.0.1:5000/secret`
-6. Create a [Travis CI](https://travis-ci.org/) account, and add a `travis.yml` that will build, test and deploy your code and container/s
+6. Create a [Travis CI](https://travis-ci.org/) account, and add a `.travis.yml` that will build, test and deploy your code and container/s
 7. The Travis process should `publish` the contianer to your own docker hub account
 8. A link to the container on docker hub should be published as `container` to `/health` (See requirement #2)
 9. A link to the GitHub project should be published as `project` to `/health` (See requirement #2)
