@@ -57,6 +57,7 @@ Content: Name:      <YOUR_NAME>
 2. Think *security*: Avoid exposing secrets in any way (Tip: use `.env` file for the `compose`ing, and `.gitignore` it)
 3. Different routers in [Ruby](https://github.com/sinatra/sinatra), [Python](http://flask.pocoo.org/), [Go](https://golang.org/pkg/net/http/) and [Node](https://www.npmjs.com/package/http-server)
 4. Structure the project in a maintainable logic way, you may use `/example`
+5. Use the `example/screenshots/` for a general idea of the outcome
 ---
 
 ```
