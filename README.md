@@ -15,7 +15,7 @@ We've found a data leak in our company, but before we're deleting our resources,
 You're assigned with the creation of a device that will be used as a POC to transfer highly sensitive data.  
 With the language of your choice follow these instructions in the next 72 hours to stop the leak:  
 
-1. Fork this project, change its name and restructure it as you see fit
+1. Clone this project, change its name and restructure it as you see fit, create your own GitHub repo with the code
 2. Write an application that will extract the secret string from a DynamoDB table in our account  
 3. The `secret_code` lies in a DynamoDB table `devops-challenge` where `code_name = #{codeName}` 
 4. The keys that will provide access to the account have been provided separatly 
