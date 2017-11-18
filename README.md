@@ -18,7 +18,7 @@ With the language of your choice follow these instructions in the next 72 hours 
 1. Clone this project, change its name and restructure it as you see fit, create your own GitHub repo with the code
 2. Write an application that will extract the secret string from a DynamoDB table in our account  
 3. The `secret_code` lies in a DynamoDB table `devops-challenge` where `code_name = #{codeName}` 
-4. The keys that will provide access to the account have been provided separatly, *DO NOT COMMIT THEM* if the keys are exposed to GitHub, we will be notified and will cause a disqualification.
+4. The keys that will provide access to the account have been provided separatly, **DO NOT COMMIT THEM**, if the keys are exposed to GitHub, we will be notified and you will be disqualified
 5. Create a docker container that will publish `secret_code` to `http://127.0.0.1:5000/secret`
 6. Create a [Travis CI](https://travis-ci.org/) account, and add a `.travis.yml` that will build, test and deploy your code and container/s
 7. The Travis process should `publish` the contianer to your own docker hub account
