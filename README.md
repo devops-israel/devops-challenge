@@ -26,9 +26,11 @@ With the language of your choice follow these instructions in the next 72 hours 
 9. A link to the GitHub project should be published as `project` to `/health` (See requirement #2)
 10. Once completed, reply to the challenge email:
 ```
-Subject: Task complete - #{codeName}
+Subject: DevOps Challenge complete
 Content: Name:      <YOUR_NAME>
          Project:   <LINK TO GITHUB PROJECT>
+Attached: `.env` (if you used one)
+
 ```
 
 #### Bonus - This is not a must
@@ -55,7 +57,7 @@ Content: Name:      <YOUR_NAME>
 ### Guidance (These are only for general assitance and are not a must):
 
 1. Use informative commit messages
-2. Think *security*: Avoid exposing secrets in any way (Tip: use `.env` file for the `compose`ing, and `.gitignore` it)
+2. Think *security*: Avoid exposing secrets in any way (Tip: use `.env` file for the `compose`ing, and `.gitignore` it. Be sure to provide the file upon completing the task.
 3. Different routers in [Ruby](https://github.com/sinatra/sinatra), [Python](http://flask.pocoo.org/), [Go](https://golang.org/pkg/net/http/) and [Node](https://www.npmjs.com/package/http-server)
 4. Structure the project in a maintainable logic way, you may use `/example`
 5. Use the `example/screenshots/` for a general idea of the outcome
