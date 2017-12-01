@@ -52,6 +52,7 @@ Attached: `.env` (if you used one)
 7. Contain a `TROUBLE.md` describing difficulties along the way and their solutions
 8. Contain a `INSTRCUTIONS.md` explaining a cloning user how to use the repo - running, testing etc.
 9. Be published as a GitHub project under your account e.g `github.com/<GitHub_User>/<Challange_Project>`
+10. `verification.sh` should run instantly, if you used a `.env` file, share it privately in the returning email
 
 
 ### Guidance (These are only for general assitance and are not a must):
